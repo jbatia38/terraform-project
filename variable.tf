@@ -47,3 +47,10 @@ variable "ssh_location" {
  description   = "the ip address that can ssh into the ec2 instance"
  type          = string
 }
+
+#rds variables
+variable "database_snapshot_identifier" {
+ default       = "0.0.0.0/0"
+ description   = "the ip address that can ssh into the ec2 instance"
+ type          = string
+}
