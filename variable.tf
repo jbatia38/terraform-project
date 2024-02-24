@@ -75,7 +75,13 @@ variable "multi_az_deployment" {
 
 #application load balancer variables
 variable "ssl_certificate_arn" {
-  default = "arn:aws:acm:us-east-1:120761757554:certificate/041b22af-210a-4030-8174-a1d590f7daee"
-  description = "ssl certificate arn"
-  type = string
+  default      = "arn:aws:acm:us-east-1:120761757554:certificate/041b22af-210a-4030-8174-a1d590f7daee"
+  description  = "ssl certificate arn"
+  type         = string
+}
+#sns top variables
+variable "operator_email" {
+  default      = "jbatia.38@gmail.com"
+  description  = "a valid email address"
+  type         = string
 }
