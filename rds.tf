@@ -23,6 +23,5 @@ vpc_security_group_ids = [aws_security_group.database_security_group.id]
 availability_zone = "us-east-1b"
 db_name = "applicationdb"
 final_snapshot_identifier = "dev-rds-database"
-skip_final_snapshot       = true
-
+skip_final_snapshot       = false
 }
