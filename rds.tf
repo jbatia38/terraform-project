@@ -22,4 +22,7 @@ db_subnet_group_name = aws_db_subnet_group.database_subnet_group.name
 vpc_security_group_ids = [aws_security_group.database_security_group.id]
 availability_zone = "us-east-1b"
 db_name = "applicationdb"
+final_snapshot_identifier = "dev-rds-database"
+skip_final_snapshot       = true
+
 }
