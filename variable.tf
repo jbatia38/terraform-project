@@ -75,7 +75,7 @@ variable "multi_az_deployment" {
 
 # Application load balancer variable
 variable "ssl_certificate_arn" {
-  default       = "arn:aws:acm:us-east-1:120761757554:certificate/8b445036-a763-44da-97d5-8059c0bbf252"
+  default       = "arn:aws:acm:us-east-1:120761757554:certificate/fdf2d45e-8de0-487f-87a2-6c8e3ae6cdb5"
   description   = "ssl certificate arn"    
   type          = string
 }
@@ -95,7 +95,7 @@ variable "launch_template_name" {
 }
 
 variable "ec2_image_id" {
-  default       = "ami-0396653d35918b472"
+  default       = "ami-025b80cd396bedec9"
   description   = "id of the ami"    
   type          = string
 }
