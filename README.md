@@ -1,4 +1,13 @@
 # terraform-project
 
+In this project I deployed a web application with aws with terraform. As shown in the diagram I utilised the following AWS services
 
-![image](https://github.com/jbatia38/terraform-project/assets/150634908/7b2086ca-89e1-4ee7-b2f7-160dfacaf3fa)
+vpc
+Nat Gateway
+Amazon RDS
+EC2
+Route 53
+Amazon SNS
+Alb
+Auto Scaling Group
+
