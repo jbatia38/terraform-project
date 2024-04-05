@@ -1,5 +1,7 @@
 # terraform-project
 
+![alt text](image-1.png)
+
 In this project I deployed a web application with aws with terraform. As shown in the diagram I utilised the following AWS services
 
 vpc
@@ -10,4 +12,6 @@ Route 53
 Amazon SNS
 Alb
 Auto Scaling Group
+
+
 
