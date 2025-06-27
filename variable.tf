@@ -50,13 +50,13 @@ variable "ssh_location" {
 
 # rds variables
 variable "database_snapshot_identifier" {
-  default       = "arn:aws:rds:us-east-1:120761757554:snapshot:dev-rds-database-snapshot"
+  default       = "arn:aws:rds:us-east-1:789234141785:cluster-snapshot:dpsnapshot"
   description   = "the database snapshot arn"    
   type          = string
 }
 
 variable "database_instance_class" {
-  default       = "db.t2.micro"
+  default       = "db.t3.micro"
   description   = "the database instance class"    
   type          = string
 }

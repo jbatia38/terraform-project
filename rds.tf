@@ -10,8 +10,8 @@ resource "aws_db_subnet_group" "database_subnet_group" {
   }
 }
 
-# get the latest db snapshot
-# terraform aws data db snapshot
+get the latest db snapshot
+terraform aws data db snapshot
 data "aws_db_snapshot" "latest_db_snapshot" {
   db_snapshot_identifier = var.database_snapshot_identifier
   most_recent            = true
@@ -30,3 +30,5 @@ resource "aws_db_instance" "database_instance" {
   multi_az                = var.multi_az_deployment
   vpc_security_group_ids  = [aws_security_group.database_security_group.id]
 }
+
+
