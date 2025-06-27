@@ -1,5 +1,5 @@
-get hosted zone details
-terraform aws data hosted zone
+#get hosted zone details
+#terraform aws data hosted zone
 data "aws_route53_zone" "hosted_zone" {
   name = var.domain_name
 }
