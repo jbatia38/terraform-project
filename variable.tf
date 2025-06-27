@@ -62,7 +62,7 @@ variable "database_instance_class" {
 }
 
 variable "database_instance_identifier" {
-  default       = "dev-rds-database"
+  default       = "dev-rds-db"
   description   = "the database instance identifier"    
   type          = string
 }
@@ -123,3 +123,7 @@ variable "record_name" {
   description   = "sub domain name"    
   type          = string
 }
+
+
+
+
