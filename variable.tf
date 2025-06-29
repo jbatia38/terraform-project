@@ -75,7 +75,7 @@ variable "multi_az_deployment" {
 
 # Application load balancer variable
 variable "ssl_certificate_arn" {
-  default       = "arn:aws:acm:us-east-1:120761757554:certificate/fdf2d45e-8de0-487f-87a2-6c8e3ae6cdb5"
+  default       = "arn:aws:acm:us-east-1:789234141785:certificate/1a5be23d-000d-451d-9d8a-6b1f04250bf8"
   description   = "ssl certificate arn"    
   type          = string
 }
@@ -113,7 +113,7 @@ variable "ec2_key_pair_name" {
 }
 #route53 variables
 variable "domain_name" {
-  default       = "hotridegh.com"
+  default       = "troskirentals.com"
   description   = "domain name"    
   type          = string
 }
